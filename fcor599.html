@@ -246,13 +246,14 @@
 
 				<section>
 						<h4 class="title-bottom">Version Control</h3>
-						<p>version control system software keep track of file changes</p>
-						<p>consider using a version control system if your project involves many developing software or contributing to data</p>
+						<p>version control system softwares keep track of file changes</p>
+						<p>essentially a database of changes</p>
 					<aside class="notes">
 					</aside>
 				</section>
 				<section>
 						<h4 class="title-bottom">Version Control</h3>
+							<p>different types of systems for different industries</p>
 							<p><a href="https://git-scm.com/" target="_blank">git</a> is very common and widely integrated</p>
 							<p><a href="http://geogig.org/" target="_blank">geogig</a> is emerging but specific to geodata</p>
 					<aside class="notes">
@@ -270,22 +271,184 @@
 				<section>
 						<h4 class="title-bottom">Data Preservation - File formats</h3>
 						<p>decide which file formats are the most reliable and persistent for your data</p>
-						<p>have you ever needed to purchase software or a license to open a file?</p>
-						<p>consider open formats over proprietary</p>
+						<p>prioritize platform-independant, character-based formats</p>
+						<p>prioritize UTF-8 character encoding</p>
 					<aside class="notes">
 					</aside>
 				</section>
 
+				<section>
+						<h4 class="title-bottom">Now let's talk about metadata</h4>
+						<p>metadata describes your data so it can be used, shared, and understood widely</p>
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">Metadata in Plain Language</h4>
+						<p>Questions you need to be prepared to answer about your data:</p>
+						<p><a href="https://geology.usgs.gov/tools/metadata/tools/doc/ctc/" target="_blank">USGS Metadata in Plain Language</a></p>
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">Examples</h4>
+						<p><a href="https://catalogue.data.gov.bc.ca/dataset/fire-incident-locations-historical" target="_blank">metadata formatted for web discovery</p>
+						<p><a href="https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/sv/613/mt/4586/iso19139.xml" target="_blank">xml-encoded metadata</a></p>
+					<aside class="notes">
+						Here are two examples of metadata records for geodata. The first link goes to a web page with metadata elements formatted for discovery. Metadata elements are there (title, contact info, despription, purpose, etc.), but they've been styled for human readability. The second link is plain XML – meant for programmatic discovery and transformation.
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">Difficulties</h4>
+						<p>frankly, metadata is pretty boring</p>
+						<p>it takes a lot of time</p>
+						<p>lots of standards, no clear best choice</p>
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">bad metadata negatively affects:</h4>
+						<ul>
+							<li>integrity</li>
+							<li>discoverability</li>
+							<li>preservability</li>
+							<li>useablity</li>
+						</ul>
 
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">4 main metadata "types"</h4>
+						<ol>
+							<li>descriptive</li>
+							<li>technical</li>
+							<li>discovery</li>
+							<li>administrative</li>
+						</ol>
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">Descriptive Metadata</h4>
+						<p>includes things like:</p>
+						<ul>
+							<li>abstract/methodology</li>
+							<li>attribute descriptions</li>
+							<li>purpose</li>
+							<li>uncertainty errors</li>
+							<li>access</li>
+						</ul>
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">Technical Metadata</h4>
+						<p>includes things like:</p>
+						<ul>
+							<li>CRS / projection / datum</li>
+							<li>attribute data types</li>
+							<li>software used</li>
+							<li>character encoding</li>
+						</ul>
+					<aside class="notes">
+					</aside>
+				</section>
 
+				<section>
+						<h4 class="title-bottom">Discovery Metadata</h4>
+						<p>includes things like:</p>
+						<ul>
+							<li>title</li>
+							<li>date</li>
+							<li>keywords</li>
+							<li>geographic extent</li>
+						</ul>
 
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h4 class="title-bottom">Administrative Metadata</h4>
+						<p>includes things like:</p>
+						<ul>
+							<li>copyright</li>
+							<li>contact info</li>
+							<li>status</li>
+						</ul>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h3 class="title-bottom">Metadata Standards</h3>
+						<p>why have metadata standards?</p>
+						<ul>
+							<li>ease transformation/conversion</li>
+							<li>ensure proper interpretation</li>
+						</ul>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h3 class="title-bottom">Metadata Standards</h3>
+						<p>2 main geospatial metadata standards</p>
+						<ul>
+							<li><a href="https://www.fgdc.gov/standards" target="_blank">FGDC</a></li>
+							<li><a href="https://www.iso.org/standard/53798.html" target="_blank">ISO 19115</a>/<a href="https://www.iso.org/standard/67253.html" target="_blank">19139</a></li>
+						</ul>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h3 class="title-bottom">Metadata Standard - ISO</h3>
+						<p>flexible and internationally recognized</p>
+						<p>generally recommended</p>
+						<p>complex</p>
+						<p>documentation costs money</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<p>don't worry! there are several tools to help you create and edit metadata!</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h3 class="title-bottom">Metadata tools and editors</h3>
+						<p><a href="https://pro.arcgis.com/en/pro-app/help/metadata/best-practices-for-editing-metadata.htm" target="_blank">ArcGIS Pro!</a></p>
+						<p><a href="http://catmdedit.sourceforge.net/" target="_blank">catMDEdit</a></p>
+						<p><a href="https://www.mdeditor.org/" target="_blank">mdEditor.org</a> (beta)</p>
+						<p><a href="https://geonetwork-opensource.org/" target="_blank">GeoNetwork</a></p>
+						<p><a href="https://wiki.osgeo.org/wiki/Metadata_software" target="_blank">and more!!</a></p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<p>creating metadata can be tedious. But remember: metadata will make your data more reproducible, sharable, and impactful.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<p>motivational quote:</p>
+						<q>metadata is a love note to the future</q>
+					<aside class="notes">
+					</aside>
+				</section>
 
 
 				<section>
