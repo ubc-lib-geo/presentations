@@ -21,6 +21,28 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style media="screen">
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center,
+				dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend,
+				table, caption, tbody, tfoot, thead, tr, th, td,
+				article, aside, canvas, details, embed,
+				figure, figcaption, footer, header, hgroup,
+				main, menu, nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: auto;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -125,7 +147,19 @@
 
 				<section data-background-image="img/kev-dc.png">
 					<div class="image-slide">
-						<h2>[Scanning - Evan]</h2>
+						<h2>Scanning</h2>
+						<ul>
+							<li>
+								Work performed in Library's Digital Lab by Kevin Hu
+							</li>
+							<li>
+								149 map images were scanned, as well as informational envelope
+							</li>
+							<li>
+								Images uploaded to Library's Digital Collections
+							</li>
+						</ul>
+						<p style="color:#40B4E5">open.library.ubc.ca/collections/ifcsm</p>
 					</div>
 				</section>
 
@@ -133,26 +167,95 @@
 				</section>
 
 				<section>
+					<h3>Metadata</h3>
+					<ul>
+						<li>
+							Work completed by UBC iSchool student Frances Chen
+						</li>
+						<li>
+							Used existing catalogue records (MARC)
+						</li>
+						<li>
+							Created new metadata records (DublinCore)
+						</li>
+					</ul>
+				</section>
+
+				<section  data-background-image="img/ifcsm-index.png">
+					<div class="image-slide">
 					<h3>Spatial discovery</h3>
 					<ul>
 						<li>
 							Maps published on a grid
 						</li>
 						<li>
-							Digital images "disconnected" with physical counterparts
+							Digital images disconnected with physical counterparts
 						</li>
 					</ul>
+				</div>
 				</section>
 				<section data-background-image="img/ifcsm-index.png">
 				</section>
 
 				<section>
-					<h3>Dublin Core --> OpenIndexMaps - Evan</h3>
+					<h3>DublinCore ⇨ OpenIndexMap</h3>
+					<ol>
+						<li>
+							Map appropriate metadata fields
+						</li>
+						<li>
+							Create index grid in GIS
+						</li>
+						<li>
+							Joined the metadata table to GIS file
+						</li>
+					</ol>
 				</section>
 
 				<section>
-					<h3>[Georeferencing] - Evan</h3>
+					<iframe src="https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/data/oim-map.html" height="500" width="80%"></iframe>
 				</section>
+
+
+				<section>
+
+					<div style="width: 45%; padding: 2%; text-align: left; position: relative; float: left">
+	          	<img src="https://ubc-lib-geo.github.io/georef-warmup/presentation/img/forestinventory.gif" ></img>
+	        </div>
+
+	        <div style="width: 45%; padding: 2%; text-align: left; position: relative; float: left">
+						<h6>Georeference</h6>
+	          <p style="font-size: 0.8em">
+							<q>first step in transforming images into geographic data</q>
+						</p>
+
+
+	        </div>
+
+
+
+
+				</section>
+
+				<section>
+        <div style="width: 56%; padding: 2%; text-align: left; position: relative; float: left">
+          <h6>Georeferencing party</h6>
+          <ul style="font-size: 0.8em">
+            <li>In Library's lab</li>
+            <li>Volunteers worked from shared drive</li>
+						<li>Georeferenced images and info were uploaded to cloud</li>
+						<li>Completed 149 maps in < 2 months</li>
+          </ul>
+
+        </div>
+
+        <div style="width: 28%; padding: 2%; text-align: left; position: relative; float: left">
+					<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We scanned and have made openly available an entire forest cover map series for BC! Shows the extent of mature forests across the province in 1957! <a href="https://t.co/Y6PlNsUdrx">https://t.co/Y6PlNsUdrx</a><br>Next is to rasterize these maps and analyze the changes. With <a href="https://twitter.com/clairielll?ref_src=twsrc%5Etfw">@clairielll</a> <a href="https://twitter.com/thornberry_evan?ref_src=twsrc%5Etfw">@thornberry_evan</a> <a href="https://twitter.com/DigitizeUBC?ref_src=twsrc%5Etfw">@DigitizeUBC</a> <a href="https://t.co/I0qyrJ1G97">pic.twitter.com/I0qyrJ1G97</a></p>&mdash; Vancouvers Big Trees (@VanBigTrees) <a href="https://twitter.com/VanBigTrees/status/1219710679558475776?ref_src=twsrc%5Etfw">January 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </section>
+
+
+
 
         <section>
 					<h3> Bringing the maps into the Classroom </h3>
