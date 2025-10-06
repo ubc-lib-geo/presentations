@@ -1,1 +1,286 @@
 
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>GEOB 350 - Library Geospatial Services and Resources</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/ubc.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+		.lightblue {
+			color: #5E869F;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<small>Library Skills Workshop</small>
+					<h3>Geospatial Services and Resources</h3>
+					<h2>UBC Library</h2>
+					<p>Evan Thornberry | GIS Librarian</p>
+
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background-image="img/tower-large.jpg">
+
+					<div class="image-slide">
+						<h3 style="border-bottom: 2px #002145 solid;">UBC-V Library</h3>
+								<ul>
+								<li>~200 employees</li>
+								<li>9 branches</li>
+								<li>5.5M physical collections</li>
+								<li>98,600+ annual reference questions</li>
+							 </ul>
+						</div>
+
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+							<h2>library.ubc.ca</h2>
+				<aside class="notes">
+				</aside>
+			</section>
+
+
+				<section>
+					<h3 style="border-bottom: 2px #002145 solid;">Koerner Library Geospatial Resources</h3>
+							<ul>
+								<li>Collections</li>
+								<li>Space</li>
+								<li>Engagement</li>
+							</ul>
+
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background-image="img/maps1.gif">
+					<div class="image-slide">
+					<h3 style="border-bottom: 2px #002145 solid;">Geospatial Collections: <span class="lightblue">Physical</h3>
+						<p>~200,000 maps, ~2000 atlases</p>
+						<p>1880s to present</p>
+						<p>world coverage, strength is W. North America</p>
+		 		</div>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section data-background-image="img/maps1.gif">
+
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background-image="img/maps1.gif">
+
+					<div class="image-slide">
+					<h4>What kinds of maps could be useful in GEOG 350?</h4>
+		 		</div>
+
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<h3 style="border-bottom: 2px #002145 solid;">Maps and Atlases</h3>
+						<p>open / browsable</p>
+						<p>not entirely findable in catalogue</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;">Maps and Atlases Research Guide</h3>
+							<p><a href="http://guides.library.ubc.ca/maps-atlases" target="_blank">guides.library.ubc.ca/maps-atlases</a></p>
+							<aside class="notes">
+								The best way to start learning about or to get an overview of GIS resources that are offered through the Library is by heading to what we call the GIS research guide.  the URL is ...
+							</aside>
+		 	 </section>
+
+				<section>
+					<h3 style="border-bottom: 2px #002145 solid;">Geospatial Collections: <span class="lightblue">Data</h3>
+						<p>open and proprietary</p>
+						<p>data relating to Canada and BC</p>
+						<p>imagery, administrative divisions, thematic, etc.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<h3 style="border-bottom: 2px #002145 solid;">Finding UBC Library GeoData</h3>
+					<p><a href="https://guides.library.ubc.ca/gis" target="_blank">guides.library.ubc.ca/gis</a></p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background-image="img/space1.jpg">
+					<div class="image-slide">
+					<h3 style="border-bottom: 2px #002145 solid;">Space</h3>
+					<p>2 physical computer labs</p>
+					<p>1 virtual computer lab</p>
+					<p>consultation rooms</p>
+					<p>presentation rooms</p>
+				</div>
+				</section>
+
+				<section data-background-image="img/space1.jpg">
+					<div class="image-slide">
+					<h3 style="border-bottom: 2px #002145 solid;">Space: <span class="lightblue">GIS Labs</span></h3>
+					<p>digital scholarship lab (Koerner 497)</p>
+					<p>instructional lab (Koerner 217)</p>
+					<p>virtual lab (<a href="https://remotelabs.ubc.ca/" target="_blank">remotelabs.ubc.ca</a>)</p>
+				</div>
+				</section>
+
+				<section data-background-image="img/space1.jpg">
+					<div class="image-slide">
+					<h3 style="border-bottom: 2px #002145 solid;">Space: <span class="lightblue">GIS Labs</span></h3>
+					<p>desktop GIS (Esri & QGIS)</p>
+					<p>statistical analysis (R, SPSS, Stata)</p>
+					<p>other useful software (FME, StatTransfer, Adobe Suite)</p>
+				</div>
+				</section>
+
+				<section data-background-image="img/space1.jpg">
+				</section>
+
+				<section data-background-image="img/space2.jpg">
+				</section>
+
+				<section data-background-image="img/space2.jpg">
+					<div class="image-slide">
+					<h3 style="border-bottom: 2px #002145 solid;">Space: <span class="lightblue">Consultation Room</span></h3>
+					<p>library staff consult regularly ("reference")</p>
+					<p>start with emails, phone calls, etc.</p>
+				</div>
+				</section>
+
+				<section>
+					<p><q>I'm looking for highly detailed bathymetric charts for an area around Wreck Beach.</q></p>
+				</section>
+				<section>
+					<p><q>I need GIS data for landfills in BC.</q></p>
+				</section>
+				<section>
+					<p><q>I have the locations of vintage photographs of Hong Kong and I would like to use them to make an interactive map.</q></p>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;"><span class="lightblue">GIS Grad Academic Assistants</span></h3>
+						<p>Book a consultation with June or Maya!</p>
+						<p><a href="https://researchcommons.library.ubc.ca/consultation-requests/" target="_blank">researchcommons.library.ubc.ca/consultation-requests</a></p>
+				</section>
+
+				<section data-background-image="img/space2.jpg">
+					<div class="image-slide">
+					<p>always feel welcome to email us directly</p>
+					<p><strong>library.gis@ubc.ca</strong></p>
+					</div>
+				</section>
+
+				<section data-background-image="img/space3.jpg">
+					<div class="image-slide">
+						<h3 style="border-bottom: 2px #002145 solid;">Space: <span class="lightblue">Presentation Room</span></h3>
+						<p>Workshops</p>
+						<p>Presentations</p>
+					</div>
+				</section>
+
+				<section data-background-image="img/space3.jpg">
+				</section>
+
+				<section data-background-image="img/space3.jpg">
+					<div class="image-slide">
+						<h3 style="border-bottom: 2px #002145 solid;">Open Workshops</h3>
+						<p><a href="https://ubc-library-rc.github.io/all.html" target="_blank">ubc-library-rc.github.io/all</a></p>
+					</div>
+				</section>
+
+				<section data-background-image="img/space3.jpg">
+					<div class="image-slide">
+					<h3 style="border-bottom: 2px #002145 solid;">Engagement</h3>
+					<p>events</p>
+					<p>partnership</p>
+				</div>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;">Engagement: <span class="lightblue">events</span></h3>
+						<p>GIS Day presentation series</p>
+						<p>Georeferencing parties and mapathons</p>
+						<p>Public presentations</p>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;">Engagement: <span class="lightblue">events</span></h3>
+						<p>stay up to date:</p>
+						<p><strong><a href="https://libcal.library.ubc.ca/calendar/vancouver" target="_blank">events.library.ubc.ca</a></strong></p>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;">Engagement: <span class="lightblue">partnership</span></h3>
+						<p>reference / consultations</p>
+						<p>project-level</p>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;">Engagement: <span class="lightblue">partnership</span></h3>
+						<p>UBC library directory:</p>
+						<p><strong><a href="https://directory.library.ubc.ca/subjectlibrarians" target="_blank">directory.library.ubc.ca</a></strong></p>
+				</section>
+
+				<section>
+						<h3 style="border-bottom: 2px #002145 solid;">Map and GIS contacts:</h3>
+						<p>Evan Thornberry (Me) – GIS Librarian</p>
+						<p>Paul Lesack – Data and GIS Analyst</p>
+						<p>GIS Graduate Academic Assistants</p>
+				</section>
+
+				<section>
+						<h3><span class="lightblue">Thanks!</span></h3>
+						<p>Evan Thornberry</p>
+						<p>evan.thornberry@ubc.ca | library.gis@ubc.ca</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
